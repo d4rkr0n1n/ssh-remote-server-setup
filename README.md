@@ -4,7 +4,13 @@
 A project to setup a basic remote linux server VM on Vagrant and configure it to allow secure SSH.
 
 ## Repotree
-
+```
+├── scripts
+│   └── script.sh
+├── .gitignore
+├── README.md
+└── Vagrantfile
+```
 
 ## Specification
 1. Provision a Ubuntu 22.04 LTS virtual machine using Vagrant with automatic SSH key deployment.
